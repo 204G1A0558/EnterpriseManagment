@@ -1,0 +1,513 @@
+<!-- <html><head><style>#space img {display:inline-block;margin:25px 44px;}
+button{background-color:teal;}</style>
+</head>
+<body bgcolor=cadetblue><h1 align=center>NADEEM ENTERPRISES</h1><div id="space">
+<table align=center>
+<tr>
+<th><img src="fivestar.png" width=100>
+<th><img src="fivestar2.png" width=100>
+<th><img src="dairymilk.png" width=100>
+<th><img src="dairymilk2.png" width=100>
+<th><img src="dairymilk3.png" width=100>
+<th><img src="dairymilk4.png" width=100</tr>
+<tr><th>FIVE-STRAT
+<th>FIVE-START 
+<th>DairyMilk 
+<th>DairyMilk 
+<th>DairyMilk 
+<th>DairyMilk 
+</tr>
+</tr>
+<tr><td align=center>₹5
+<td align=center>₹10
+<td align=center>₹5
+<td align=center>₹10
+<td align=center>₹175
+<td align=center>₹375
+</tr>
+<tr>
+<td align=center><button type="button" onclick="addItem('FiveStar', 5)">Buy Now</button><input type="checkbox" name="FiveStar" id="fivestar">
+<td align=center><button type="button" onclick="addItem('FiveStar2', 10)">Buy Now</button><input type="checkbox" name="FIVE-START" id="fivestar2">
+<td align=center><button type="button" onclick="addItem('DairyMilk', 5)">Buy Now</button><input type="checkbox" name="DairyMilk" id="dairymilk">
+<td align=center><button type="button" onclick="addItem('DairyMilk', 10)">Buy Now</button ><input type="checkbox" name="DairyMilk" id="dairymilk2">
+<td align=center><button type="button" onclick="addItem('DairyMilk', 175)">Buy Now</button><input type="checkbox" name="DairyMilk" id="dairymilk3">
+<td align=center><button type="button">Buy Now</button><input type="checkbox" name="Skill Set" id="Skill Set">
+</tr>
+</tr>
+</table>
+<table align=center>
+<tr>
+<th><img src="celebrations.png" width=100>
+<th><img src="celebrations2.png" width=100>
+<th><img src="dinkydeckers.png" width=100>
+<th><img src="OreoCookiesCoted.png" width=100>
+<th><img src="Bornvita.png" width=100>
+<th><img src="Oreo1.png" width=100</tr>
+<tr><th>CELEBRATIONS
+<th>CELEBRATIONS
+<th>DINKYDECKERS
+<th>OREOCOOKIESCOTED 
+<th>BORNAVITA
+<th>OREO
+</tr>
+<tr><td align=center>₹1,250
+<td align=center>₹750
+<td align=center>₹542
+<td align=center>₹499
+<td align=center>₹114
+<td align=center>₹5
+</tr>
+<tr>
+<td align=center><button type="button" >Buy Now</button><input type="checkbox" name="Skill Set" id="Skill Set">
+<td align=center><button type="button">Buy Now</button><input type="checkbox" name="Skill Set" id="Skill Set">
+<td align=center><button type="button">Buy Now</button><input type="checkbox" name="Skill Set" id="Skill Set">
+<td align=center><button type="button">Buy Now</button><input type="checkbox" name="Skill Set" id="Skill Set">
+<td align=center><button type="button">Buy Now</button><input type="checkbox" name="Skill Set" id="Skill Set">
+<td align=center><button type="button">Buy Now</button><input type="checkbox" name="Skill Set" id="Skill Set">
+</tr>
+</div>
+<tr><td>
+<form method="POST" action="Bill.html">
+<input type="submit" value="Add To The List"/>
+</form>
+<a href="Bill.html">
+</a>
+</td></tr>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NADEEM ENTERPRISES</title>
+    <style>
+        #space img {
+            display: inline-block;
+            margin: 25px 44px;
+        }
+        button {
+            background-color: teal;
+        }
+    </style>
+</head>
+<body style="background-color: cadetblue;">
+    <h1 style="text-align: center;">NADEEM ENTERPRISES</h1>
+    <div id="space">
+         Product tables as you've provided -->
+
+        <!-- Add selected items to a list -->
+        <!-- <form id="itemForm">
+            <input type="hidden" id="selectedItems" name="selectedItems" value="">
+        </form>
+
+        <button type="button" onclick="addToItemList()">Add To The List</button>
+
+        Link to the next page with the list
+        <a href="Bill.html">View List</a>
+    </div>
+
+    <script>
+        let itemList = [];
+
+        function addToItemList() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            itemList = [];
+
+            checkboxes.forEach((checkbox, index) => {
+                if (checkbox.checked) {
+                    const productName = document.querySelectorAll('th')[index].textContent;
+                    const productPrice = document.querySelectorAll('td[align="center"]')[index].textContent;
+                    itemList.push({ productName, productPrice, quantity: 1 });
+                }
+            });
+
+            // Store selected items in a hidden field
+            document.getElementById('selectedItems').value = JSON.stringify(itemList);
+        }
+    </script>
+</body>
+</html>  -->
+ 
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NADEEM ENTERPRISES</title>
+    <style>
+        /* Your CSS styles here */
+        #space img {
+            display: inline-block;
+            margin: 25px 44px;
+        }
+
+        button {
+            background-color: teal;
+        }
+    </style>
+</head>
+<body bgcolor="cadetblue">
+    <h1 align="center">NADEEM ENTERPRISES</h1>
+    <div id="space">
+        <table align="center">
+            Replace the placeholders with your product table rows -->
+            <!--<tr>
+                <th><img src="fivestar.png" width="100"></th>
+                <th><img src="fivestar2.png" width="100"></th>
+                 Add more product columns as needed 
+            </tr>
+            <tr>
+                <th>FIVE-STAR</th>
+                <th>FIVE-STAR</th>
+                 Add more product names as needed 
+            </tr>
+            <tr>
+                <td align="center">₹5</td>
+                <td align="center">₹10</td>
+                 Add more product prices as needed 
+            </tr>
+            <tr>
+                <td align="center">
+                    <button type="button" onclick="addItem('FiveStar', 5, 'FIVE-STAR')">Buy Now</button>
+                    <input type="checkbox" name="FiveStar" id="fivestar">
+                </td>
+                <td align="center">
+                    <button type="button" onclick="addItem('FiveStar2', 10, 'FIVE-STAR')">Buy Now</button>
+                    <input type="checkbox" name="FIVE-STAR" id="fivestar2">
+                </td>
+                 Add more product buttons and checkboxes as needed 
+            </tr>
+        </table>
+         Add more product tables as needed
+
+        <form method="POST" action="Bill.html">
+            <input type="submit" value="Add To The List"/>
+        </form>
+        <a href="Bill.html"></a>
+    </div>
+
+    <script>
+        // JavaScript code to add items to the cart
+        function addItem(productName, price, id) {
+            const checkbox = document.getElementById(id);
+            if (checkbox.checked) {
+                const quantity = parseInt(prompt(`Enter quantity for ${productName}:`));
+                if (!isNaN(quantity)) {
+                    const item = {
+                        productName: productName,
+                        price: price,
+                        quantity: quantity
+                    };
+                    let cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+                    cart.push(item);
+                    sessionStorage.setItem('cart', JSON.stringify(cart));
+                    alert(`${quantity} ${productName}(s) added to the cart.`);
+                } else {
+                    alert('Invalid quantity. Please enter a valid number.');
+                }
+            }
+        }
+    </script>
+</body>
+</html>-->
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NADEEM ENTERPRISES</title>
+    <style>
+        /* Your CSS styles here */
+    </style>
+</head>
+<body bgcolor="cadetblue">
+    <h1 align="center">NADEEM ENTERPRISES</h1>
+    <div id="space">
+        <table align="center">
+             Your product table here with JavaScript to add items to the cart 
+            <tr>
+                <th><img src="fivestar.png" width="100"></th>
+                 Add other columns here 
+            </tr>
+            <tr>
+                <th>FIVE-STAR</th>
+                 Add other columns here 
+            </tr>
+            <tr>
+                <td align="center">₹5</td>
+                 Add other columns here 
+            </tr>
+            <tr>
+                <td align="center">
+                    <button type="button" onclick="addItem('FiveStar', 5, 'fivestar')">Buy Now</button>
+                    <input type="checkbox" name="FiveStar" id="fivestar">
+                </td>
+                 Add other columns here 
+            </tr>
+        </table>
+         Add more product tables here 
+
+        <form method="POST" action="Bill.html">
+            <input type="submit" value="Add To The List"/>
+        </form>
+        <a href="Bill.html"></a>
+    </div>
+
+    <script>
+        // JavaScript code to add items to the cart
+        function addItem(productName, price, id) {
+            const checkbox = document.getElementById(id);
+            if (checkbox.checked) {
+                const quantity = parseInt(prompt(`Enter quantity for ${productName}:`));
+                if (!isNaN(quantity)) {
+                    const item = {
+                        productName: productName,
+                        price: price,
+                        quantity: quantity
+                    };
+                    let cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+                    cart.push(item);
+                    sessionStorage.setItem('cart', JSON.stringify(cart));
+                    alert(`${quantity} ${productName}(s) added to the cart.`);
+                } else {
+                    alert('Invalid quantity. Please enter a valid number.');
+                }
+            }
+        }
+    </script>
+</body>
+</html>-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NADEEM ENTERPRISES</title>
+    <style>
+        /* Your CSS styles here */
+        #space img {
+            display: inline-block;
+            margin: 25px 44px;
+        }
+
+        button {
+            background-color: teal;
+        }
+    </style>
+</head>
+<body bgcolor="cadetblue">
+    <h1 align="center">NADEEM ENTERPRISES</h1>
+    <div id="space">
+        <table align="center">
+             Your product table here with JavaScript to add items to the cart 
+            <tr>
+                <th><img src="fivestar.png" width="100"></th>
+                 Add other columns here 
+            </tr>
+            <tr>
+                <th>FIVE-STAR</th>
+                 Add other columns here 
+            </tr>
+            <tr>
+                <td align="center">₹5</td>
+                 Add other columns here 
+            </tr>
+            <tr>
+                <td align="center">
+                    <button type="button" onclick="addItem('FiveStar', 5, 'fivestar')">Buy Now</button>
+                    <input type="checkbox" name="FiveStar" id="fivestar">
+                </td>
+                 Add other columns here 
+            </tr>
+        </table>
+        Add more product tables here 
+
+        <form method="POST" action="bill.html">
+            <input type="submit" value="Add To The List"/>
+        </form>
+    </div>
+
+    <script>
+        // JavaScript code to add items to the cart
+        function addItem(productName, price, id) {
+            const checkbox = document.getElementById(id);
+            if (checkbox.checked) {
+                const quantity = parseInt(prompt(`Enter quantity for ${productName}:`));
+                if (!isNaN(quantity)) {
+                    const item = {
+                        productName: productName,
+                        price: price,
+                        quantity: quantity
+                    };
+                    let cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+                    cart.push(item);
+                    sessionStorage.setItem('cart', JSON.stringify(cart));
+                    alert(`${quantity} ${productName}(s) added to the cart.`);
+                } else {
+                    alert('Invalid quantity. Please enter a valid number.');
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NADEEM ENTERPRISES</title>
+    <style>
+        /* Your CSS styles here */
+        #space img {
+            display: inline-block;
+            margin: 25px 44px;
+        }
+
+        button {
+            background-color: teal;
+        }
+    </style>
+</head>
+<body bgcolor="cadetblue">
+    <h1 align="center">NADEEM ENTERPRISES</h1>
+    <div id="space">
+        <form method="POST" action="bill.html">
+            <input type="submit" value="Add To The List"/>
+        </form>
+        <a href="bill.html">Go to Bill</a>
+            <table align="center">
+                 <!-- Your product table here with JavaScript to add items to the cart  -->
+                <tr>
+                    <th><img src="fivestar.png" width="100"></th>
+                     <!-- Add more product columns as needed  -->
+                </tr>
+                <tr>
+                    <td>FIVE-STAR</td>
+                    <!-- Add more product names as needed  -->
+                </tr>
+                <tr>
+                    <td align="center">₹5</td>
+                     <!-- Add more product prices as needed  -->
+                </tr>
+                <tr>
+                    <td align="center">
+                        <button type="button" onclick="addItem('FiveStar', 5, 'fivestar')">Buy Now</button>
+                        <input type="checkbox" name="FiveStar" id="fivestar">
+                    </td>
+                </tr>
+                 <!-- Add more rows for other products  -->
+            </table>
+        </form>
+    </div>
+
+    <script>
+        // JavaScript code to add items to the cart
+        function addItem(productName, price, id) {
+            const checkbox = document.getElementById(id);
+            if (checkbox.checked) {
+                const quantity = parseInt(prompt(`Enter quantity for ${productName}:`));
+                if (!isNaN(quantity)) {
+                    const item = {
+                        productName: productName,
+                        price: price,
+                        quantity: quantity
+                    };
+                    let cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+                    cart.push(item);
+                    sessionStorage.setItem('cart', JSON.stringify(cart));
+                    alert(`${quantity} ${productName}(s) added to the cart.`);
+                } else {
+                    alert('Invalid quantity. Please enter a valid number.');
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NADEEM ENTERPRISES</title>
+    <style>
+        /* Your CSS styles here */
+    </style>
+</head>
+<body bgcolor="cadetblue">
+    <h1 align="center">NADEEM ENTERPRISES</h1>
+    <div id="space">
+        <table align="center">
+        </table>
+        <table align="center">
+            <tr>
+                <th><img src="fivestar.png" width="100"></th>
+                 Add more product columns as needed 
+            </tr>
+            <tr>
+                <td>FIVE-STAR</td>
+                Add more product names as needed 
+            </tr>
+            <tr>
+                <td align="center">₹5</td>
+                 Add more product prices as needed 
+            </tr>
+            <tr>
+                <td align="center">
+                    <button type="button" onclick="addItem('FiveStar', 5, 'fivestar')">Buy Now</button>
+                    <input type="checkbox" name="FiveStar" id="fivestar">
+                </td>
+            </tr>
+        </table>
+        <form method="POST" action="bill.html">
+            <input type="submit" value="Add To The List"/>
+        </form>
+        <a href="bill.html">Go to Bill</a> 
+
+    <script>
+        // JavaScript code to add items to the cart
+        // Modify this code to handle your products and checkboxes
+        function addItem(productName, price, id) {
+            const checkbox = document.getElementById(id);
+            if (checkbox.checked) {
+                const quantity = parseInt(prompt(`Enter quantity for ${productName}:`));
+                if (!isNaN(quantity)) {
+                    const item = {
+                        productName: productName,
+                        price: price,
+                        quantity: quantity
+                    };
+                    let cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+                    cart.push(item);
+                    sessionStorage.setItem('cart', JSON.stringify(cart));
+                    alert(`${quantity} ${productName}(s) added to the cart.`);
+                } else {
+                    alert('Invalid quantity. Please enter a valid number.');
+                }
+            }
+        }
+    </script>
+<script>
+    function addItem(productName, price, id) {
+        // Your existing code for adding items
+
+        // Store the cart items in sessionStorage
+        sessionStorage.setItem('cart', JSON.stringify(cart));
+
+        // Redirect to bill.html
+        window.location.href = "bill.html";
+    }
+</script>
+<button onclick="window.location.href = 'bill.html'">View Bill</button> 
+
+</body>
+</html>
+
+-->
+
+
+
+
+

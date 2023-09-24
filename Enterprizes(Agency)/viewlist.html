@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bill - NADEEM ENTERPRISES</title>
+</head>
+<body>
+    <h1>Bill - NADEEM ENTERPRISES</h1>
+
+    <div id="billTable"></div>
+
+    <script>
+        // Function to parse JSON data and create the table
+        function createBillTable() {
+            // Get the JSON data from the hidden input field
+            const selectedItemsJSON = document.getElementById('selectedItems').value;
+            
+            // Parse the JSON data into an array
+            const selectedItems = JSON.parse(selectedItemsJSON);
+
+            // Create an HTML table to display the items
+            const table = document.createElement('table');
+            table.border = '1';
+            table.style.width = '50%';
+            table.style.margin = '0 auto';
+
+            // Create the table header
+            const thead = table.createTHead();
+            const headerRow = thead.insertRow();
+            const productHeader = headerRow.insertCell(0);
+            productHeader.textContent = 'Product Name';
+            const priceHeader = headerRow.insertCell(1);
+            priceHeader.textContent = 'Price';
+            const quantityHeader = headerRow.insertCell(2);
+            quantityHeader.textContent = 'Quantity';
+
+            // Create the table body
+            const tbody = table.createTBody();
+
+            // Loop through the selected items and populate the table
+            selectedItems.forEach(item => {
+                const row = tbody.insertRow();
+                const productNameCell = row.insertCell(0);
+                productNameCell.textContent = item.productName;
+                const priceCell = row.insertCell(1);
+                priceCell.textContent = item.productPrice;
+                const quantityCell = row.insertCell(2);
+                quantityCell.textContent = item.quantity;
+            });
+
+            // Append the table to the "billTable" div
+            const billTable = document.getElementById('billTable');
+            billTable.appendChild(table);
+        }
+
+        // Call the function to create the table when the page loads
+        window.onload = createBillTable;
+    </script>
+</body>
+</html>
+
